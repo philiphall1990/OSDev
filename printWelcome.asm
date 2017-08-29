@@ -1,7 +1,7 @@
-global printWelcome
+global _printWelcome
 
 _printWelcome:
-	mov [0x000b8000], 0x572b // - green on black
+	mov [0x000b8000], word 0x572b // - green on black
 	mov [0x000b8010], 0x652b // - green on black
 	mov	[0x000b8020], 0x6c2b 
 	mov [0x000b8030], 0x632b
