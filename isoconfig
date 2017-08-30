@@ -1,5 +1,5 @@
     genisoimage -R                              \
-                -b boot/grub/stage2_eltorito    \
+                -b /boot/grub/stage2_eltorito    \
                 -no-emul-boot                   \
                 -boot-load-size 4               \
                 -A os                           \

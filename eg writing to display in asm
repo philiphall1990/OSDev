@@ -1,9 +1,0 @@
-//Bit:     | 15 14 13 12 11 10 9 8 | 7 6 5 4 | 3 2 1 0 |
-//Content: | ASCII                 | FG      | BG      |
-
-
-//starting address is lifted from tutorial - is it necessrily correct?
-mov [0x000b8000], 0x412b //B - green on black
-mov [0x000b8010], 0x422b //B - green on black
-
-
