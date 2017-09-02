@@ -1,7 +1,6 @@
 global _printWelcome
 
 _printWelcome:
-	int 0x10
 	mov [0x000b8000], word 0x572b
 	mov [0x000b8010], word 0x652b
 	mov [0x000b8020], word 0x6c2b
